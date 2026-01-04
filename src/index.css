@@ -14,23 +14,3 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.button {
-    padding: 10px 20px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 6px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.button:hover {
-    background-color: #f0f0f0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.button:active {
-    background-color: #e0e0e0;
-}

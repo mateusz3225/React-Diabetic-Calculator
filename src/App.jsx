@@ -33,7 +33,9 @@ function App() {
           setProtein(0);
         }}
       >Reset Macros</button> </div>
-      <div className={styles.infotext}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div className={styles.infotext}>
+        This calculator helps determine your insulin dose based on your carbohydrate intake and individual carb-to-insulin ratio. Enter your carb ratio (how many grams of carbs are covered by 1 unit of insulin) and the total grams of carbs in your meal. The opitonal fields for fat and protein can calculate long-acting insuline required for the meal.
+      </div>
     </div>
     
     </div>
